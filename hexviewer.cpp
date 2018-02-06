@@ -24,10 +24,8 @@ int main(int argc, char* argv[])
     ifstream read;
     bool dump_out = false;
     ofstream write;
-    string file_path;
-    string dump_temp;
-    string dump_path;
-    string all_flags;
+    string file_path, all_flags, dump_temp, dump_path;
+    
     bool dump_in_dec = false;
 
     if(argc < 2)
